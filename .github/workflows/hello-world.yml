@@ -1,6 +1,6 @@
 on: push
 jobs:
-Build:
+  build:
   runs-on: ubuntu-latest
   container: gradle:6-jdk11
   steps:
